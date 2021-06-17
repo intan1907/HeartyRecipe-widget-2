@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF3923E9266E189D009B6911 /* HeartyRecipeWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3923E8266E189D009B6911 /* HeartyRecipeWidgetView.swift */; };
+		EF3923EC266E18E2009B6911 /* HeartyRecipeWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3923E8266E189D009B6911 /* HeartyRecipeWidgetView.swift */; };
+		EF40EF242668751B001A4973 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF40EF232668751B001A4973 /* AppDelegate.swift */; };
+		EF40EF262668751B001A4973 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF40EF252668751B001A4973 /* SceneDelegate.swift */; };
+		EF40EF282668751B001A4973 /* DetailRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF40EF272668751B001A4973 /* DetailRecipeView.swift */; };
+		EF40EF2A2668751D001A4973 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF40EF292668751D001A4973 /* Assets.xcassets */; };
+		EF40EF2D2668751D001A4973 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF40EF2C2668751D001A4973 /* Preview Assets.xcassets */; };
+		EF40EF302668751D001A4973 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF40EF2E2668751D001A4973 /* LaunchScreen.storyboard */; };
+		EF40EF512668809E001A4973 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF40EF502668809E001A4973 /* ContentView.swift */; };
+		EF4E8DAD2668EFCB0036C50B /* RecipeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4E8DAC2668EFCB0036C50B /* RecipeRow.swift */; };
+		EF4E8DBA26690DA70036C50B /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4E8DB926690DA70036C50B /* HostingController.swift */; };
+		EFE22D7C266E1375006762E2 /* HeartyRecipeHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFE22D7B266E1375006762E2 /* HeartyRecipeHelper.framework */; };
+		EFE22D7D266E1375006762E2 /* HeartyRecipeHelper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EFE22D7B266E1375006762E2 /* HeartyRecipeHelper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EFE22D85266E13FE006762E2 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFE22D84266E13FE006762E2 /* WidgetKit.framework */; };
+		EFE22D87266E13FE006762E2 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFE22D86266E13FE006762E2 /* SwiftUI.framework */; };
+		EFE22D8A266E13FE006762E2 /* HeartyRecipeWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE22D89266E13FE006762E2 /* HeartyRecipeWidget.swift */; };
+		EFE22D8C266E13FF006762E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFE22D8B266E13FF006762E2 /* Assets.xcassets */; };
+		EFE22D90266E13FF006762E2 /* HeartyRecipeWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EFE22D83266E13FE006762E2 /* HeartyRecipeWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFE22D8E266E13FF006762E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF40EF182668751B001A4973 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFE22D82266E13FE006762E2;
+			remoteInfo = "Hearty Recipe WidgetExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EFE22D7E266E1375006762E2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				EFE22D7D266E1375006762E2 /* HeartyRecipeHelper.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE22D94266E13FF006762E2 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EFE22D90266E13FF006762E2 /* HeartyRecipeWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EF3923E8266E189D009B6911 /* HeartyRecipeWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartyRecipeWidgetView.swift; sourceTree = "<group>"; };
+		EF40EF202668751B001A4973 /* HeartyRecipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeartyRecipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF40EF232668751B001A4973 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF40EF252668751B001A4973 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EF40EF272668751B001A4973 /* DetailRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRecipeView.swift; sourceTree = "<group>"; };
+		EF40EF292668751D001A4973 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF40EF2C2668751D001A4973 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EF40EF2F2668751D001A4973 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF40EF312668751D001A4973 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF40EF502668809E001A4973 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EF4E8DAC2668EFCB0036C50B /* RecipeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeRow.swift; sourceTree = "<group>"; };
+		EF4E8DB926690DA70036C50B /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		EFD81FE6267315A1009B6955 /* HeartyRecipe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HeartyRecipe.entitlements; sourceTree = "<group>"; };
+		EFE22D7B266E1375006762E2 /* HeartyRecipeHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HeartyRecipeHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFE22D83266E13FE006762E2 /* HeartyRecipeWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = HeartyRecipeWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFE22D84266E13FE006762E2 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		EFE22D86266E13FE006762E2 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		EFE22D89266E13FE006762E2 /* HeartyRecipeWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartyRecipeWidget.swift; sourceTree = "<group>"; };
+		EFE22D8B266E13FF006762E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFE22D8D266E13FF006762E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF40EF1D2668751B001A4973 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE22D7C266E1375006762E2 /* HeartyRecipeHelper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE22D80266E13FE006762E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE22D87266E13FE006762E2 /* SwiftUI.framework in Frameworks */,
+				EFE22D85266E13FE006762E2 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF40EF172668751B001A4973 = {
+			isa = PBXGroup;
+			children = (
+				EF40EF222668751B001A4973 /* HeartyRecipe */,
+				EFE22D88266E13FE006762E2 /* HeartyRecipeWidget */,
+				EF40EF212668751B001A4973 /* Products */,
+				EFE22D7A266E1375006762E2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EF40EF212668751B001A4973 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF40EF202668751B001A4973 /* HeartyRecipe.app */,
+				EFE22D83266E13FE006762E2 /* HeartyRecipeWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF40EF222668751B001A4973 /* HeartyRecipe */ = {
+			isa = PBXGroup;
+			children = (
+				EFD81FE6267315A1009B6955 /* HeartyRecipe.entitlements */,
+				EFD81FC42672FA24009B6955 /* App */,
+				EF89FA222669AFA900EAF941 /* SupportingView */,
+				EF40EF4C26688026001A4973 /* View */,
+				EF40EF292668751D001A4973 /* Assets.xcassets */,
+				EF40EF2E2668751D001A4973 /* LaunchScreen.storyboard */,
+				EF40EF312668751D001A4973 /* Info.plist */,
+				EF40EF2B2668751D001A4973 /* Preview Content */,
+			);
+			path = HeartyRecipe;
+			sourceTree = "<group>";
+		};
+		EF40EF2B2668751D001A4973 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EF40EF2C2668751D001A4973 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EF40EF4C26688026001A4973 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EF40EF502668809E001A4973 /* ContentView.swift */,
+				EF40EF272668751B001A4973 /* DetailRecipeView.swift */,
+				EF4E8DAC2668EFCB0036C50B /* RecipeRow.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EF89FA222669AFA900EAF941 /* SupportingView */ = {
+			isa = PBXGroup;
+			children = (
+				EF4E8DB926690DA70036C50B /* HostingController.swift */,
+			);
+			path = SupportingView;
+			sourceTree = "<group>";
+		};
+		EFD81FC42672FA24009B6955 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EF40EF232668751B001A4973 /* AppDelegate.swift */,
+				EF40EF252668751B001A4973 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		EFE22D7A266E1375006762E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFE22D7B266E1375006762E2 /* HeartyRecipeHelper.framework */,
+				EFE22D84266E13FE006762E2 /* WidgetKit.framework */,
+				EFE22D86266E13FE006762E2 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFE22D88266E13FE006762E2 /* HeartyRecipeWidget */ = {
+			isa = PBXGroup;
+			children = (
+				EFE22D89266E13FE006762E2 /* HeartyRecipeWidget.swift */,
+				EF3923E8266E189D009B6911 /* HeartyRecipeWidgetView.swift */,
+				EFE22D8B266E13FF006762E2 /* Assets.xcassets */,
+				EFE22D8D266E13FF006762E2 /* Info.plist */,
+			);
+			path = HeartyRecipeWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF40EF1F2668751B001A4973 /* HeartyRecipe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF40EF342668751D001A4973 /* Build configuration list for PBXNativeTarget "HeartyRecipe" */;
+			buildPhases = (
+				EF40EF1C2668751B001A4973 /* Sources */,
+				EF40EF1D2668751B001A4973 /* Frameworks */,
+				EF40EF1E2668751B001A4973 /* Resources */,
+				EFE22D7E266E1375006762E2 /* Embed Frameworks */,
+				EFE22D94266E13FF006762E2 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFE22D8F266E13FF006762E2 /* PBXTargetDependency */,
+			);
+			name = HeartyRecipe;
+			productName = RecipeWidget;
+			productReference = EF40EF202668751B001A4973 /* HeartyRecipe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFE22D82266E13FE006762E2 /* HeartyRecipeWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFE22D91266E13FF006762E2 /* Build configuration list for PBXNativeTarget "HeartyRecipeWidgetExtension" */;
+			buildPhases = (
+				EFE22D7F266E13FE006762E2 /* Sources */,
+				EFE22D80266E13FE006762E2 /* Frameworks */,
+				EFE22D81266E13FE006762E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeartyRecipeWidgetExtension;
+			productName = "Hearty Recipe WidgetExtension";
+			productReference = EFE22D83266E13FE006762E2 /* HeartyRecipeWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF40EF182668751B001A4973 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					EF40EF1F2668751B001A4973 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					EFE22D82266E13FE006762E2 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = EF40EF1B2668751B001A4973 /* Build configuration list for PBXProject "HeartyRecipe" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF40EF172668751B001A4973;
+			productRefGroup = EF40EF212668751B001A4973 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF40EF1F2668751B001A4973 /* HeartyRecipe */,
+				EFE22D82266E13FE006762E2 /* HeartyRecipeWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF40EF1E2668751B001A4973 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF40EF302668751D001A4973 /* LaunchScreen.storyboard in Resources */,
+				EF40EF2D2668751D001A4973 /* Preview Assets.xcassets in Resources */,
+				EF40EF2A2668751D001A4973 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE22D81266E13FE006762E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE22D8C266E13FF006762E2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF40EF1C2668751B001A4973 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF40EF242668751B001A4973 /* AppDelegate.swift in Sources */,
+				EF4E8DAD2668EFCB0036C50B /* RecipeRow.swift in Sources */,
+				EF4E8DBA26690DA70036C50B /* HostingController.swift in Sources */,
+				EF40EF262668751B001A4973 /* SceneDelegate.swift in Sources */,
+				EF40EF282668751B001A4973 /* DetailRecipeView.swift in Sources */,
+				EF3923E9266E189D009B6911 /* HeartyRecipeWidgetView.swift in Sources */,
+				EF40EF512668809E001A4973 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE22D7F266E13FE006762E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE22D8A266E13FE006762E2 /* HeartyRecipeWidget.swift in Sources */,
+				EF3923EC266E18E2009B6911 /* HeartyRecipeWidgetView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFE22D8F266E13FF006762E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFE22D82266E13FE006762E2 /* HeartyRecipeWidgetExtension */;
+			targetProxy = EFE22D8E266E13FF006762E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF40EF2E2668751D001A4973 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF40EF2F2668751D001A4973 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF40EF322668751D001A4973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF40EF332668751D001A4973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF40EF352668751D001A4973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HeartyRecipe/HeartyRecipe.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HeartyRecipe/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HeartyRecipe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = intan3951.HeartyRecipe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EF40EF362668751D001A4973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HeartyRecipe/HeartyRecipe.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HeartyRecipe/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HeartyRecipe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = intan3951.HeartyRecipe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		EFE22D92266E13FF006762E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/HeartyRecipeWidget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = intan3951.HeartyRecipe.HeartyRecipeWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFE22D93266E13FF006762E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/HeartyRecipeWidget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = intan3951.HeartyRecipe.HeartyRecipeWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF40EF1B2668751B001A4973 /* Build configuration list for PBXProject "HeartyRecipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF40EF322668751D001A4973 /* Debug */,
+				EF40EF332668751D001A4973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF40EF342668751D001A4973 /* Build configuration list for PBXNativeTarget "HeartyRecipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF40EF352668751D001A4973 /* Debug */,
+				EF40EF362668751D001A4973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFE22D91266E13FF006762E2 /* Build configuration list for PBXNativeTarget "HeartyRecipeWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFE22D92266E13FF006762E2 /* Debug */,
+				EFE22D93266E13FF006762E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF40EF182668751B001A4973 /* Project object */;
+}
